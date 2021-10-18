@@ -2,18 +2,18 @@ import json
 from pathlib import Path
 
 
-sname= input("enter scraper name:- ")
-url=input("enter url:- ")
-xp=input("enter xpath:-")
-next_b=input("enter next xpath:-")
-no_row=input("no. of cols:-")
+first= input("enter value")
+second=input("enter value ")
+third=input("enter value")
+four=input("enter value")
+five=input("enter value")
 
 data ={
-    'scraper_name':sname,
-    'url':url,
-    'xp':xp,
-    'next_b':next_b,
-    'no_row': no_row,    
+    'first': input of first,
+    'second': input of second ,
+    'third': input of third  ,
+    'four': input of four  ,
+    'five': input of five,    
 	}
 
 with open(sname+".json","w") as write_file:
